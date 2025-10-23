@@ -93,7 +93,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # --- Título y Descripción ---
-st.title("🔍 Demo de Búsqueda Semántica (TF-IDF) en Español")
+st.title("Demo de Búsqueda Semántica (TF-IDF) en Español")
 st.write("""
 Esta aplicación utiliza TF-IDF y la similitud del coseno para encontrar el documento más relevante para tu pregunta.
 El análisis incluye *stemming* en español (ej: "jugar", "jugando", "juegan" se tratan como "jug").
@@ -140,13 +140,13 @@ with st.container():
     col1, col2 = st.columns([2, 1])
 
     with col1:
-        text_input = st.text_area("📝 Documentos (uno por línea):", default_docs, height=210)
+        text_input = st.text_area("Documentos (uno por línea):", default_docs, height=210)
         
         # El 'key' "question" vincula este input a st.session_state.question
-        question = st.text_input("❓ Escribe tu pregunta:", key="question")
+        question = st.text_input("Escribe tu pregunta:", key="question")
 
     with col2:
-        st.markdown("### 💡 Preguntas sugeridas:")
+        st.markdown("### 🫧 Preguntas sugeridas:")
         
         st.button(
             "¿Dónde juegan el perro y el gato?", 
