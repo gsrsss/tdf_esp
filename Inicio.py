@@ -61,13 +61,13 @@ st.markdown("""
     
     /* Botón primario de "Analizar" */
     .stButton > button[kind="primary"] {
-        background-color: #0072c6; /* Azul */
+        background-color: #E91E63; /* Rosado */
         border: none;
         border-radius: 8px;
         font-weight: 600;
     }
     .stButton > button[kind="primary"]:hover {
-        background-color: #0056b3;
+        background-color: #C2185B; /* Rosado oscuro */
     }
 
     /* Estilo para la respuesta 'success' */
