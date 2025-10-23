@@ -93,7 +93,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # --- Título y Descripción ---
-st.title("Demo de Búsqueda Semántica (TF-IDF) en Español")
+st.title("Demo de Búsqueda Semántica (TF-IDF) en Español (ෆ˙ᵕ˙ෆ)♡")
 st.write("""
 Esta aplicación utiliza TF-IDF y la similitud del coseno para encontrar el documento más relevante para tu pregunta.
 El análisis incluye *stemming* en español (ej: "jugar", "jugando", "juegan" se tratan como "jug").
